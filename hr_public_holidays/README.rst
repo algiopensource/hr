@@ -6,47 +6,48 @@
 HR Public Holidays
 ==================
 
-This module is a technical module to handle public holidays.
+This module allows to define public holidays at country or state level by year.
 
-Installation
-============
-
-To install this module, you need to:
-
-* clone the branch 10.0 of the repository https://github.com/OCA/hr
-* add the path to this repository in your configuration (addons-path)
-* update the module list
-* search for "Public Holidays" in your addons
-* install the module
+These holidays will be taken into account in standard resource allocation and
+requests, and can be used by other modules as base data.
 
 Configuration
 =============
 
-No extra configuration needed.
+#. Go to *Leaves > Public Holidays > Public Holidays*.
+#. Create a record, specifying:
+
+   * Year for the holidays you are going to set.
+   * Optionally, a country where the holidays apply. If not set, it means
+     holidays are global.
+#. On "Public Holidays" section, introduce a line for each of the holidays
+   you want to specify.
+#. Optionally, you can set at line level several countries for limiting the
+   holidays to that countries.
+
+On following years, you can speed up public holidays creation using a wizard:
+
+#. Go to *Leaves > Public Holidays > Create Next Year Public Holidays*.
+#. If there's no special situation, you only need to click on "Create" for
+   applying the same holidays as this year for the next.
+#. If you need to generate holidays for another year different from next one,
+   or take as source another year different from the last one, go to the
+   "Optional" page for configuring these parameters.
 
 Usage
 =====
-
-Go to Human Resources > Configuration > Public Holidays and create your
-public holidays
 
 .. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
    :alt: Try me on Runbot
    :target: https://runbot.odoo-community.org/runbot/116/10.0
 
-Known issues / Roadmap
-======================
-
-
-
 Bug Tracker
 ===========
 
-Bugs are tracked on `GitHub Issues <https://github.com/OCA/hr/issues>`_.
-In case of trouble, please check there if your issue has already been reported.
-If you spotted it first, help us smashing it by providing a detailed and welcomed feedback
-`here <https://github.com/OCA/hr/issues/new?body=module:%20hr_public_holidays%0Aversion:%2010.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
-
+Bugs are tracked on `GitHub Issues
+<https://github.com/OCA/hr/issues>`_. In case of trouble, please
+check there if your issue has already been reported. If you spotted it first,
+help us smashing it by providing a detailed and welcomed feedback.
 
 Credits
 =======
@@ -66,16 +67,19 @@ Contributors
 * Salton Massally (iDT Labs) <smassally@idtlabs.sl>
 * Ivan Yelizariev <yelizariev@it-projects.info>
 * Bassirou Ndaw <b.ndaw@ergobit.org>
+* Tecnativa - Pedro M. Baeza
 
 Maintainer
 ----------
 
-.. image:: http://odoo-community.org/logo.png
+.. image:: https://odoo-community.org/logo.png
    :alt: Odoo Community Association
-   :target: http://odoo-community.org
+   :target: https://odoo-community.org
 
 This module is maintained by the OCA.
 
-OCA, or the Odoo Community Association, is a nonprofit organization whose mission is to support the collaborative development of Odoo features and promote its widespread use.
+OCA, or the Odoo Community Association, is a nonprofit organization whose
+mission is to support the collaborative development of Odoo features and
+promote its widespread use.
 
-To contribute to this module, please visit http://odoo-community.org.
+To contribute to this module, please visit https://odoo-community.org.

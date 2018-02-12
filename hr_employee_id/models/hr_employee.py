@@ -30,8 +30,7 @@ class HrEmployee(models.Model):
         company = self.env.user.company_id
         employee_id = False
         if company.employee_id_gen_method == 'sequence':
-            employee_id = self.env['ir.sequence'].get_id(
-                company.employee_id_sequence.id)
+            employee_id = company.employee_id_sequence.next_by_id()
         elif company.employee_id_gen_method == 'random':
             employee_id_random_digits = company.employee_id_random_digits
             tries = 0
@@ -53,6 +52,6 @@ class HrEmployee(models.Model):
 
     @api.model
     def create(self, vals):
-        eid = self._generate_identification_id()
-        vals['identification_id'] = eid
+        if not vals.get('identification_id'):
+            vals['identification_id'] = self._generate_identification_id()
         return super(HrEmployee, self).create(vals)
