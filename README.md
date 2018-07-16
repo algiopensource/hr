@@ -33,6 +33,7 @@ addon | version | summary
 [hr_experience](hr_experience/) | 10.0.1.0.0 | Experience Management
 [hr_family](hr_family/) | 10.0.1.0.0 | Employee Family Information
 [hr_holidays_compute_days](hr_holidays_compute_days/) | 10.0.2.0.0 | Computes the actual leave days considering rest days and public holidays
+[hr_holidays_hour](hr_holidays_hour/) | 10.0.1.0.0 | Holidays, Allocation and Leave Requests in Hours
 [hr_holidays_imposed_days](hr_holidays_imposed_days/) | 10.0.1.0.0 | Imposed holidays days
 [hr_holidays_leave_auto_approve](hr_holidays_leave_auto_approve/) | 10.0.1.0.0 | Leave type for auto approval of Leaves
 [hr_holidays_legal_leave](hr_holidays_legal_leave/) | 10.0.1.0.0 | Allows the definition of legal/annual leave
@@ -40,8 +41,11 @@ addon | version | summary
 [hr_holidays_notify_employee_manager](hr_holidays_notify_employee_manager/) | 10.0.1.0.0 | Notify employee's manager by mail on Leave Requests creation.
 [hr_holidays_settings](hr_holidays_settings/) | 10.0.1.1.0 | Enables Settings Form for HR Holidays.
 [hr_holidays_validity_date](hr_holidays_validity_date/) | 10.0.1.0.0 | Allow to define start and end date on holidays type.
-[hr_payroll_cancel](hr_payroll_cancel/) | 10.0.1.0.0 | Hr Payroll Cancel
-[hr_public_holidays](hr_public_holidays/) | 10.0.1.0.0 | Manage Public Holidays
+[hr_language](hr_language/) | 10.0.0.1.0 | Language Management
+[hr_payroll_cancel](hr_payroll_cancel/) | 10.0.1.0.1 | Hr Payroll Cancel
+[hr_payslip_change_state](hr_payslip_change_state/) | 10.0.1.0.0 | Change the state of many payslips at a time
+[hr_period](hr_period/) | 10.0.1.0.0 | Add payroll periods
+[hr_public_holidays](hr_public_holidays/) | 10.0.1.0.1 | Manage Public Holidays
 [hr_recruitment_skill](hr_recruitment_skill/) | 10.0.1.0.0 | Add skills on job position
 [hr_skill](hr_skill/) | 10.0.1.0.0 | Skill Management
 [hr_worked_days_from_timesheet](hr_worked_days_from_timesheet/) | 10.0.1.0.0 | Adds a button to import worked days from timesheet.
@@ -67,7 +71,6 @@ addon | version | summary
 [hr_job_categories](hr_job_categories/) | 8.0.1.0.0 (unported) | HR Job Employee Categories
 [hr_job_hierarchy](hr_job_hierarchy/) | 1.0 (unported) | Job Hierarchy
 [hr_labour_union](hr_labour_union/) | 1.0 (unported) | Labour Union
-[hr_language](hr_language/) | 8.0.0.1.0 (unported) | Language Management
 [hr_payroll_register](hr_payroll_register/) | 1.0 (unported) | Payroll Register
 [hr_payslip_amendment](hr_payslip_amendment/) | 1.0 (unported) | Pay Slip Amendment
 [hr_payslip_move_date](hr_payslip_move_date/) | 8.0.0.1.0 (unported) | HR Payslip Move Date
