@@ -1,29 +1,30 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * hr_payslip_change_state
-# 
+#
 # Translators:
 # OCA Transbot <transbot@odoo-community.org>, 2016
-# Carles Antoli <carlesantoli@hotmail.com>, 2017
+# Marc Tormo i Bochaca <mtbochaca@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-31 03:30+0000\n"
-"PO-Revision-Date: 2016-12-31 03:30+0000\n"
-"Last-Translator: Carles Antoli <carlesantoli@hotmail.com>, 2017\n"
+"POT-Creation-Date: 2017-03-28 03:12+0000\n"
+"PO-Revision-Date: 2017-03-28 03:12+0000\n"
+"Last-Translator: Marc Tormo i Bochaca <mtbochaca@gmail.com>, 2017\n"
 "Language-Team: Catalan (https://www.transifex.com/oca/teams/23907/ca/)\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: hr_payslip_change_state
 #: help:hr.payslip.change.state,state:0
 msgid ""
 "* When the payslip is created the status is 'Draft'.             \n"
-"* If the payslip is under verification, the status is 'Compute Sheet'.              \n"
+"* If the payslip is under verification, the status is 'Compute "
+"Sheet'.              \n"
 "* If the payslip is confirmed then status is set to 'Done'.             \n"
 "* When user cancel payslip the status is 'Rejected'."
 msgstr ""
@@ -31,7 +32,7 @@ msgstr ""
 #. module: hr_payslip_change_state
 #: field:hr.payslip.change.state,state:0
 msgid "Action"
-msgstr ""
+msgstr "Acció"
 
 #. module: hr_payslip_change_state
 #: view:hr.payslip.change.state:hr_payslip_change_state.hr_payslip_change_state_form
